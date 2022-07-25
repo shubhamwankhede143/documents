@@ -1,5 +1,5 @@
 Kafka Installation 
-1)Download kafka http link from this link - https://www.apache.org/dyn/closer.cgi?path=/kafka/3.2.0/kafka_2.13-3.2.0.tgz
+1)Download kafka from this link - https://www.apache.org/dyn/closer.cgi?path=/kafka/3.2.0/kafka_2.13-3.2.0.tgz (select htpp link)
 2)Extract it 
 
 Running Zookeeper Command (Windows)
