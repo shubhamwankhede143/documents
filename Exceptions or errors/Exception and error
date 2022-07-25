@@ -1,4 +1,4 @@
 Errors 
 
-1)invalid source release: 18
-check the java version in build.gradle and intellij setting both should be same .
+1)invalid source release: 18 (https://stackoverflow.com/questions/72040156/intellij-idea-java-error-invalid-source-release-18)
+check the java version in build.gradle and intellij setting/Build,Execution.Deployment/Gradle -> Gradle JVM both should be same .
