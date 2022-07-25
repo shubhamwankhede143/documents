@@ -1,11 +1,30 @@
-Kafka Installation 
+Imp kafka link for windows - 1) https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
+							 2) https://howtodoinjava.com/kafka/getting-started-windows-10/#:~:text=%20Verify%20Kafka%20Installation%20%201%20Open%20a,the%20messages%20and%20submit%20to%20test...%20More%20
+							 
+Kafka installation 
 1)Download kafka from this link - https://www.apache.org/dyn/closer.cgi?path=/kafka/3.2.0/kafka_2.13-3.2.0.tgz (select htpp link)
 2)Extract it 
 
-Running Zookeeper Command (Windows)
+Running zookeeper command (Windows)
 1) .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
-Running Kafka Server (Windows)
+Stop Zookeeper 
+1) bin\windows\zookeeper-server-stop.bat
+
+Running kafka server (Windows)
 1) .\bin\windows\kafka-server-start.bat .\config\server.properties
 
+Stop Kafka 
+1) bin\windows\kafka-server-stop.bat
 
+Create topic command (Windows)
+1) bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+
+List all the topics 
+1) bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+Produce some messages
+1) bin\windows\kafka-console-producer.bat --bootstrap-server localhost:9092 --topic test
+
+Consume the messages
+1) bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
