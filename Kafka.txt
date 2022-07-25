@@ -1,0 +1,11 @@
+Kafka Installation 
+1)Download kafka http link from this link - https://www.apache.org/dyn/closer.cgi?path=/kafka/3.2.0/kafka_2.13-3.2.0.tgz
+2)Extract it 
+
+Running Zookeeper Command (Windows)
+1) .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+Running Kafka Server (Windows)
+1) .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+
