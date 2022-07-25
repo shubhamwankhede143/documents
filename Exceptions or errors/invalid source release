@@ -1,0 +1,4 @@
+Errors 
+
+1)invalid source release: 18
+check the java version in build.gradle and intellij setting both should be same .
